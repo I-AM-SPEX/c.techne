@@ -1,0 +1,50 @@
+.trending-nft {
+  display: flex;
+
+  /*border: 1px solid white;*/
+  height: 80%;
+  width: 80%;
+}
+
+.trending-nft-container {
+  /*border: 1px solid blue;*/
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending-nft-img {
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  /*border: 1px solid blue;*/
+}
+
+.nft-artist-info {
+  display: flex;
+  align-items: center;
+}
+
+.nft-artist-profile {
+  display: flex;
+  align-items: center;
+}
+
+.artist-profile-img {
+  width: 4em;
+  height: 4em;
+}
+
+.artist-profile-img img {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+}
+
+.trending-nft-divider {
+  border-right: 10px solid white;
+  height: 100%;
+}
